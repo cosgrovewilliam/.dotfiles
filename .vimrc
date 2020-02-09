@@ -12,7 +12,7 @@ call plug#end()
 "Line number"
 set number relativenumber
 
-"
+"Enables syntax highlighting
 syntax enable
 
 "Tab configuration
