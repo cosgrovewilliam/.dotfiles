@@ -7,6 +7,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin()
+Plug 'junegunn/goyo.vim'
 call plug#end()
 
 "Line number"
